@@ -12,7 +12,7 @@ int Matrix(int v[], int n)
     }
     int j;
 
-    for(int l=2;l<n;l++)
+    for(int l=2;l<=n;l++)
     {
         for(int i=0;i<n-l;i++)
         {
